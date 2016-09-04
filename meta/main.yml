@@ -2,24 +2,18 @@
 dependencies: []
 
 galaxy_info:
-  author: geerlingguy
-  description: Dotfile installation for UNIX/Linux.
-  company: "Midwestern Mac, LLC"
-  license: "license (BSD, MIT)"
+  author: ymajik
+  description: Dotfile installation for Linux.
+  company:
+  license: BSD
   min_ansible_version: 1.9
   platforms:
-  - name: GenericUNIX
+  - name: Debian
     versions:
-      - all
-      - any
-  - name: GenericBSD
+      - jessie
+  - name: EL
     versions:
-      - all
-      - any
-  - name: GenericLinux
-    versions:
-      - all
-      - any
+      - 7
   galaxy_tags:
     - development
     - system
