@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ymajik/ansible-role-dotfiles.svg?branch=master)](https://travis-ci.org/ymajik/ansible-role-dotfiles)
 
-Installs dotfiles from a given Git repository.
+Installs dotfiles from a given Git repository. Tested on Debian jessie and CentOS 7
 
 ## Requirements
 
@@ -53,4 +53,4 @@ BSD
 
 ## Author Information
 
-ymajik
+ymajik, forked and based on [geerlingguy's dotfiles](https://github.com/geerlingguy/ansible-role-dotfiles)
